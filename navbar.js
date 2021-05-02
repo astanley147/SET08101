@@ -1,3 +1,4 @@
+//(Coutresy of w3schools.com HTML tutorial)*
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
 }
