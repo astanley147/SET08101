@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="stylesheet.css" rel="stylesheet">
+<head>
+    <title>Wintermute</title>
+    <link rel="icon" href="Img/Logo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <script src="navbar.js"></script>
+    <script src="popup.js"></script>
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+
+    </div>
+
+    <!-- Title -->
+    <div class="page_title">
+        <h1>
+            Wintermute
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <button onclick="openNav()">Menu</button>
+        </h1>
+    </div>
+    <!-- Main Image -->
+<div class="story">
+    <img class="main_image" src="Img/Office.png">
+
+
+    <!-- Main text body -->
+    <span class="body_text">
+        <h1> Page 1: Cold Caller </h1>
+            <pre>
+                <p1> 
+It's cold.
+you sit in your office playing your 4th game of solitare of the morning. 
+buisness is slow at this time of year and there's not much else to do in the small office of the single bay hangar your 
+father bought all those years ago.
+
+you feel the cold winter wind shift outside and the temprature in the office drops by a few degrees. 
+Time to fire up the wood stove. 
+Getting up from your desk to light the small stove you pass your old bookshelf. 
+                    
+There aren't many books on it's shelves anymore. At a glance you can see a couple of old books:
+
+<div class="manual" onclick="manualFunction()">- The manual for your old faithful floatplane<span class="manualtext" id="manualPopup"> A quick flick through the manual lands you on the page instructing how to land the plane without power. 
+REMEMBER NOT TO DUMP FUEL UNTIL THE LAST MOMENT. DO NOT USE LANDING GEAR ON SOFT GROUND.</span></div>  
+<div class="map" onclick="mapFunction()">- A map of an island far to the north that your dad use to fly to.<span class="mapimage" id="mapPopup"><img class="mappic" src="Img/oldmap.png"></span></div>                
+
+Crouching next to the stove, you  begin the repetative task of building a fire. 
+As you hold a match to the old newspaper in the fire you hear a sound you've never heard before at this time of year. 
+                    
+The phone ringing...
+                </p1>
+            </pre>
+    </span>
+</div>
+    <!-- Option cards-->
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <a href="pg2.html">
+                    <img src="Img/Ringphone.png">
+                    <h2>Ringing phone</h2>
+                    <p2>Answer it</p2>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

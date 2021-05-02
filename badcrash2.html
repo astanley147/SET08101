@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="stylesheet.css" rel="stylesheet">
+<head>
+  <title>Wintermute</title>
+  <link rel = "icon" href = "Img/Logo.ico" type = "image/x-icon">
+</head>
+
+<body>
+  <script src="navbar.js"></script>
+  <script src="popup.js"></script>
+   <!-- The overlay -->
+ <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="pg1.html">Restart Game</a>
+      <a href="index.html">Home</a>
+      <a href="Contact.html">Contact</a>
+    </div>
+
+  </div>
+
+<!-- Title -->
+<div class="page_title">
+  <h1>
+    Wintermute
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <button onclick="openNav()">Menu</button> 
+  </h1>
+</div>
+<div class="story">
+  <!-- Main Image -->
+  <div class="image_container">
+    <img class="main_image" src="Img/Badcrash.png">
+  </div>
+
+  <!-- Main text body -->
+  <span class="body_text">
+    <h1> GAME OVER </h1>
+    <p1> <span>The landing gear catches on the soft powdery snow on the frozen lake sending the floatplane spinning across the valley floor. Maybe you should have read <div class="manual" onclick="manualFunction()"> the manual for your old floatplane.<span class="manualtext" id="manualPopup"> A quick flick through the manual lands you on the page instructing how to land the plane without power. </span></div>  </span> </p1>
+  </span>
+</div>
+<!-- Option cards-->
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <a href="index.html">
+        <img src="Img/wt.png">
+        <h2>Return to Homepage</h2>
+        <p2>Thanks for playing!</p2>
+      </a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <a href="pg5.html">
+        <img src="Img/Alti.png">
+        <h2>Retry the Landing</h2>
+        <p2>Re-attempt the landing from the beginning.</p2>
+      </a>
+    </div>
+  </div>
+</div> 
+</body>
+</html>
